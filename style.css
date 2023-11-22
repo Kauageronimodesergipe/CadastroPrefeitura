@@ -1,0 +1,78 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.formulario {
+    color: rgb(0, 0, 0);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.page {
+    display: flex;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}
+
+.cartao {
+    background: white;
+    padding: 34px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 450px;
+    box-shadow: 0px 20px 20px 0px black;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.campos {
+    color: crimson;
+}
+.campos:focus{
+    border-color: yellow;
+}
+
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    background-color: rgb(0, 255, 21);
+    cursor: pointer;
+    transition: all linear 190ms;
+    border: none;
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    background-color: brown;
+}
+
+p{
+    font-size: 0.9em;
+    color: rgb(216, 2, 170);
+}
+
+a{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(114, 81, 106);
+    text-align: center;
+}
